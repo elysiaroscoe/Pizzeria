@@ -1,7 +1,7 @@
-function pizzaOven(bread, protein, cheese, toppings) {
+function pizzaOven(crustType, sauceType, cheese, toppings) {
     var pizza = {};
-    pizza.crustType = bread;
-    pizza.sauceType = protein;
+    pizza.crustType = crustType;
+    pizza.sauceType = sauceType;
     pizza.cheeses = cheese;
     pizza.toppings = toppings;
     return pizza;
